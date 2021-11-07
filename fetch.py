@@ -9,10 +9,12 @@ xmax = -8.0
 xmin = -32.0
 ymin = 34.0
 ymax = 59.0
+width = 240
+height = 250
 
 
 def bathy_request_url(x, y):
-    return f"https://ows.emodnet-bathymetry.eu/wms?bbox={xmin},{ymin},{xmax},{ymax}&styles=&format=jpeg&request=GetFeatureInfo&layers=quality_index&query_layers=quality_index&width=240&height=250&x={x}&y={y}"
+    return f"https://ows.emodnet-bathymetry.eu/wms?bbox={xmin},{ymin},{xmax},{ymax}&styles=&format=jpeg&request=GetFeatureInfo&layers=quality_index&query_layers=quality_index&width={width}&height={height}&x={x}&y={y}"
 
 
 class Grid:
@@ -60,7 +62,6 @@ class Cell:
                 resp = str(resp)
                 combined = findall("combined \= ([0-9]+)", resp)
                 self.bathy = 0 if len(combined) == 0 else combined[0]
-
                 return True
 
         url = bathy_request_url(self.x, self.y)
@@ -71,10 +72,11 @@ class Cell:
                     break
                 time.sleep(randint(1, 9) / 10)
         except Exception as e:
-            print("Unable to get url {} due to {}.".format(url, e))
+            print(f"Unable to get url {url} due to: {e}")
+            self.bathy = 0
 
 
-grid = Grid(240, 250)
+grid = Grid(width, height)
 start = time.time()
 grid.get_bathy()
 end = time.time()

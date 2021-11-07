@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>0</name>
+            <LineString id="2">
+                <coordinates>-4.806250000000006,47.58541666666667,0.0 -11.206249999999997,53.985416666666666,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="5">
+            <name>1</name>
+            <LineString id="4">
+                <coordinates>-11.206249999999997,53.985416666666666,0.0 -17.606250000000003,47.58541666666667,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="7">
+            <name>2</name>
+            <LineString id="6">
+                <coordinates>-17.606250000000003,47.58541666666667,0.0 -24.00625000000001,47.58541666666667,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="9">
+            <name>3</name>
+            <LineString id="8">
+                <coordinates>-24.00625000000001,47.58541666666667,0.0 -30.40625,41.18541666666667,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="11">
+            <name>4</name>
+            <LineString id="10">
+                <coordinates>-30.40625,41.18541666666667,0.0 -25.181250000000006,40.44791666666667,0.0</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>

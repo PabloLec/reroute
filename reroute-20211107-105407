@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>0</name>
+            <LineString id="2">
+                <coordinates>-32.99791666666667,48.58958333333334,0.0 -33.39791666666667,48.58958333333334,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="5">
+            <name>1</name>
+            <LineString id="4">
+                <coordinates>-33.39791666666667,48.58958333333334,0.0 -33.79791666666667,48.58958333333334,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="7">
+            <name>2</name>
+            <LineString id="6">
+                <coordinates>-33.79791666666667,48.58958333333334,0.0 -33.39791666666667,48.989583333333336,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="9">
+            <name>3</name>
+            <LineString id="8">
+                <coordinates>-33.39791666666667,48.989583333333336,0.0 -32.99791666666667,48.989583333333336,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="11">
+            <name>4</name>
+            <LineString id="10">
+                <coordinates>-32.99791666666667,48.989583333333336,0.0 -32.59791666666667,48.989583333333336,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="13">
+            <name>5</name>
+            <LineString id="12">
+                <coordinates>-32.59791666666667,48.989583333333336,0.0 -32.19791666666667,48.989583333333336,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="15">
+            <name>6</name>
+            <LineString id="14">
+                <coordinates>-32.19791666666667,48.989583333333336,0.0 -32.18958333333334,48.59791666666667,0.0</coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>

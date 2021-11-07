@@ -1,0 +1,1 @@
+tk.Label(root, text="     \n   ").grid(row=10)
